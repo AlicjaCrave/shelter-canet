@@ -1,13 +1,16 @@
 header {
-  background: white;
   display: flex;
   flex-direction: column;
 }
-header div.menu {
+
+div.menu {
   display: flex;
   justify-content: space-evenly;
+  background: #9ee3f1;
+  padding: 1rem;
 }
-header img.logo {
+img.logo {
+  margin: 100px;
   max-width: 500px;
   min-width: 250px;
   align-self: center;
@@ -15,17 +18,31 @@ header img.logo {
 
 body {
   font-family: roboto;
-  background: #0094db;
+  background: #9ee3f1;
   color: white;
+}
+
+div.main {
   background: black;
   justify-content: space-around;
+  font-size: 2rem;
+}
+
+img {
+  width: 50%;
+  align-self: center;
+}
+
+div.columns {
+  display: flex;
+  width: 100%;
+}
+
+div.column {
   width: 50%;
 }
-body div.columns {
-  background: pink;
-}
+
 footer {
-  background: #e6b81f;
   align-self: center;
 }
 
