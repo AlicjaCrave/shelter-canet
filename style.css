@@ -1,0 +1,32 @@
+header {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+header div.menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+header img.logo {
+  max-width: 500px;
+  min-width: 250px;
+  align-self: center;
+}
+
+body {
+  font-family: roboto;
+  background: #0094db;
+  color: white;
+  background: black;
+  justify-content: space-around;
+  width: 50%;
+}
+body div.columns {
+  background: pink;
+}
+footer {
+  background: #e6b81f;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */
