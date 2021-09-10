@@ -7,7 +7,6 @@
     <title>Refuge Animalier de Canet-en-Roussillion</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -19,3 +18,4 @@
         </div>
         <img class="logo" src="images/logoplustypo.png" alt="">
     </header>
+
