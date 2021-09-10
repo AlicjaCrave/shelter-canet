@@ -1,6 +1,8 @@
 header {
   display: flex;
   flex-direction: column;
+  font-family: roboto;
+  font-weight: bolder;
 }
 
 div.menu {
@@ -8,7 +10,13 @@ div.menu {
   justify-content: space-evenly;
   background: #0094db;
   padding: 1rem;
-  font-weight: 800;
+  color: #0094db;
+  decoration: none;
+}
+
+div.menu a {
+  text-decoration: none;
+  color: #9ee3f1;
 }
 
 img.logo {
@@ -30,6 +38,10 @@ main {
   font-size: 2rem;
 }
 
+main p.presentation {
+  margin: 10rem 20rem 10rem 20rem;
+}
+
 img {
   width: 50%;
   align-self: center;
@@ -44,8 +56,19 @@ div.column {
   width: 50%;
 }
 
+div.adoption {
+  display: flex;
+  border-radius: 50%;
+}
+
 footer {
   align-self: center;
+  padding: 2rem;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
